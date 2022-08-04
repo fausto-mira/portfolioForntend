@@ -1,6 +1,6 @@
 "use strict";
-var text = "Hello World!";
-console.log(text);
+/* let text:string = "Hello World!";
+console.log(text); */
 var Persona = /** @class */ (function () {
     function Persona(nombre, apellido, anio) {
         this.nombre = nombre;
@@ -22,4 +22,8 @@ var Persona = /** @class */ (function () {
     });
     return Persona;
 }());
-var Pablo;
+var persona01 = new Persona("Pablo", "Alonzo", 15);
+/* persona1.nombre = Pablo;
+persona1.apellido = Alonso;
+persona1.anio = 15; */
+console.log(persona01.toString);

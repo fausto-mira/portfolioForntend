@@ -1,5 +1,5 @@
-let text:string = "Hello World!";
-console.log(text);
+/* let text:string = "Hello World!";
+console.log(text); */
 
 class Persona{
     readonly nombre:string;
@@ -25,5 +25,11 @@ class Persona{
     }
 }
 
-let Pablo:Persona;
+let persona01= new Persona("Pablo", "Alonzo", 15);
+/* persona1.nombre = Pablo;
+persona1.apellido = Alonso;
+persona1.anio = 15; */
+
+console.log(persona01.toString);
+
 
