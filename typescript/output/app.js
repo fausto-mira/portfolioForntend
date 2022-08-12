@@ -8,7 +8,7 @@ var Persona = /** @class */ (function () {
         this.anioNac = anio;
     }
     Persona.prototype.toString = function () {
-        return this.nombre + this.apellido;
+        return this.nombre + " " + this.apellido;
     };
     Persona.prototype.edad = function (añoActual) {
         return (añoActual - this.anioNac);
@@ -26,4 +26,4 @@ var persona01 = new Persona("Pablo", "Alonzo", 15);
 /* persona1.nombre = Pablo;
 persona1.apellido = Alonso;
 persona1.anio = 15; */
-console.log(persona01.toString);
+console.log(persona01.toString());

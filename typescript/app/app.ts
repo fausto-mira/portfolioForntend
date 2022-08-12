@@ -13,7 +13,7 @@ class Persona{
     }
 
     public toString():string{
-        return this.nombre+this.apellido;
+        return `${this.nombre} ${this.apellido}`;
     }
     
     public edad(añoActual:number):number{
@@ -30,6 +30,6 @@ let persona01= new Persona("Pablo", "Alonzo", 15);
 persona1.apellido = Alonso;
 persona1.anio = 15; */
 
-console.log(persona01.toString);
+console.log(persona01.toString());
 
 

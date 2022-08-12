@@ -1,0 +1,19 @@
+{
+  "name": "portfoliofrontend",
+  "version": "1.0.0",
+  "description": "repo para frontend",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fausto-mira/portfolioFrontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fausto-mira/portfolioFrontend/issues"
+  },
+  "homepage": "https://github.com/fausto-mira/portfolioFrontend#readme"
+}
